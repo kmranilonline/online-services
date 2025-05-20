@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .submit-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Ticket details : </h2>
+     <form action="https://formspree.io/f/meogdrjl" method="POST">
+        <div class="form-group">
+            <label for="from">From : </label>
+            <input type="text" name="from" id="from" placeholder="Enter the station" required>
+        </div>
+        <div class="form-group">
+            <label for="to">To : </label>
+            <input type="text" name="to" id="to" placeholder="Enter the station" required>
+        </div>
+         <div class="form-group">
+            <label for="number">Members : </label>
+            <input type="number" name="date" id="number" required>
+        </div>
+        <div class="form-group">
+            <label for="name">Class : </label>
+            <input type="text" name="name" id="name" placeholder="AC 1 tier or AC 2 tier AC 3 tier or sleeper">
+        </div>
+       
+         <div class="form-group">
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name" placeholder="Enter the name " required>
+        </div>
+         <div class="form-group">
+            <label for="age">Age : </label>
+            <input type="number" name="age" id="age" placeholder="Enter the age " required>
+        </div>
+         <div class="form-group">
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name" placeholder="Enter the name ">
+        </div>
+        <div class="form-group">
+            <label for="age">Age : </label>
+            <input type="number" name="age" id="age" placeholder="Enter the age ">
+        </div>
+         <div class="form-group">
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name" placeholder="Enter the name ">
+        </div>
+        <div class="form-group">
+            <label for="age">Age : </label>
+            <input type="number" name="age" id="age" placeholder="Enter the age ">
+        </div>
+         <div class="form-group">
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name" placeholder="Enter the name ">
+        </div>
+        <div class="form-group">
+            <label for="age">Age : </label>
+            <input type="number" name="age" id="age" placeholder="Enter the age ">
+        </div>
+         <div class="form-group">
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name" placeholder="Enter the name ">
+        </div>
+        <div class="form-group">
+            <label for="age">Age : </label>
+            <input type="number" name="age" id="age" placeholder="Enter the age ">
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input for="email" name="email"  required>
+        </div>
+
+
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
